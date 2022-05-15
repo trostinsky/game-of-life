@@ -1,21 +1,23 @@
 # Demo
 
-You can see working example [here](https://github.com/facebook/create-react-app).
+You can see working example [here](https://trostinsky.github.io/game-of-life/).
 
 ## Run code local
 
+### Clone project
 Firstly you need need clone this project.
+`git clone git@github.com:trostinsky/game-of-life.git`
 
+### Run project
 
-### `npm start`
+Use `npm install`
+Then use `npm start` command
 
-Runs the app in the development mode.\
+App will run in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Run tests
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You also can run tests. 
+`npm test` for single testing of this app.
+`npm test --watch` for run in the watch mode. 
